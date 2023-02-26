@@ -1,4 +1,4 @@
-import classes from carrers
+from classes.carrers import carrers
 
 class courses():
     def __init__(self,courseId,courseName,carrer,courseStatus):

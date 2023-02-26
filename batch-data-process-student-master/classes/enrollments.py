@@ -1,4 +1,5 @@
-from classes import courses,students
+from classes.students import students
+from classes.courses import courses
 
 class enrollement():
     def __init__(self,enrollementId,student,course,semester,year):
@@ -7,6 +8,3 @@ class enrollement():
         self.course = course
         self.semester = semester
         self.year = year
-        
-        
-    
